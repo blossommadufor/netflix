@@ -15,7 +15,7 @@ const Player = () => {
     headers: {
       accept: "application/json",
       Authorization:
-        "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3MDhlZmE4MjRiMGNmMDY4MmUwOTAxZDYwNTcxMTgwNSIsIm5iZiI6MTczMzE1MzcyMC44MDA5OTk5LCJzdWIiOiI2NzRkZDNiODc5OWUxNDM2YmFmZGQyZWMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.ZreGx8zvYEmNZc-RKPXMES6LeCZcrcysBl-cQZ8A1js",
+        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3MDhlZmE4MjRiMGNmMDY4MmUwOTAxZDYwNTcxMTgwNSIsIm5iZiI6MTczMzE1MzcyMC44MDA5OTk5LCJzdWIiOiI2NzRkZDNiODc5OWUxNDM2YmFmZGQyZWMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.ZreGx8zvYEmNZc-RKPXMES6LeCZcrcysBl-cQZ8A1js",
     },
   };
 
@@ -30,6 +30,7 @@ const Player = () => {
       .catch((err) => console.error(err));
 
     setLoading(false);
+    console.log('hiiii')
   }, []);
 
   return loading ? (
