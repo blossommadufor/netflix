@@ -42,7 +42,7 @@ const Player = () => {
         src={back_arrow_icon}
         alt=""
         onClick={() => {
-          navigate("/netflix");
+          navigate("/");
         }}
       />
       <iframe

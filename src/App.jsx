@@ -30,7 +30,7 @@ const App = () => {
     <div>
     <ToastContainer theme="dark"  />
         <Routes>
-          <Route path="/netflix" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/player/:id" element={<Player />} />
         </Routes>
